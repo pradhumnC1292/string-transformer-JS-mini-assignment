@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Transformer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="inputString" placeholder="Enter a string" />
+      <div class="transformations">
+        <div class="transformation">
+          <button onclick="transformString('lower')">Lower Case</button>
+          <p id="lowerCase" class="output"></p>
+        </div>
+        <div class="transformation">
+          <button onclick="transformString('upper')">Upper Case</button>
+          <p id="upperCase" class="output"></p>
+        </div>
+        <div class="transformation">
+          <button onclick="transformString('camel')">Camel Case</button>
+          <p id="camelCase" class="output"></p>
+        </div>
+        <div class="transformation">
+          <button onclick="transformString('pascal')">Pascal Case</button>
+          <p id="pascalCase" class="output"></p>
+        </div>
+        <div class="transformation">
+          <button onclick="transformString('snake')">Snake Case</button>
+          <p id="snakeCase" class="output"></p>
+        </div>
+        <div class="transformation">
+          <button onclick="transformString('kebab')">Kebab Case</button>
+          <p id="kebabCase" class="output"></p>
+        </div>
+        <div class="transformation">
+          <button onclick="transformString('trim')">Trim</button>
+          <p id="trimCase" class="output"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
